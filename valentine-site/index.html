@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💌 For You</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg-hearts"></div>
+
+  <main class="wrap">
+
+    <!-- LANDING PAGE -->
+    <section class="card active" id="step-0">
+      <h1 class="title">Hi my love 💗</h1>
+
+      <div class="media">
+        <figure class="photo">
+          <img src="assets/us.jpg" alt="Cute photo of us" />
+          <figcaption>us being iconic 😌</figcaption>
+        </figure>
+
+        <figure class="gif">
+          <img src="assets/valentine.gif" alt="Valentine GIF" />
+        </figure>
+      </div>
+
+      <p class="note">
+        I made you a tiny little website because you make my days softer,
+        funnier, and a lot more smiley.
+        <br><br>
+        Okay now… answer a few very serious questions 😇
+      </p>
+
+      <div class="actions">
+        <button class="btn primary" data-next="1">Start 💘</button>
+      </div>
+    </section>
+
+    <!-- QUESTION 1 -->
+    <section class="card" id="step-1">
+      <h2 class="subtitle">Question 1</h2>
+      <p class="question">Are you aware you’re my favorite human?</p>
+      <div class="actions">
+        <button class="btn primary" data-next="2">Yes 💞</button>
+        <button class="btn ghost" data-next="2">Obviously 😌</button>
+      </div>
+    </section>
+
+    <!-- QUESTION 2 -->
+    <section class="card" id="step-2">
+      <h2 class="subtitle">Question 2</h2>
+      <p class="question">If I steal your hoodie, is that legally ours now?</p>
+      <div class="actions">
+        <button class="btn primary" data-next="3">Yes 🧸</button>
+        <button class="btn ghost" data-next="3">I’ll allow it 🙄💗</button>
+      </div>
+    </section>
+
+    <!-- QUESTION 3 -->
+    <section class="card" id="step-3">
+      <h2 class="subtitle">Question 3</h2>
+      <p class="question">Will you continue being my silly goose?</p>
+      <div class="actions">
+        <button class="btn primary" data-next="4">Promise 🪿</button>
+        <button class="btn ghost" data-next="4">Double promise 💗</button>
+      </div>
+    </section>
+
+    <!-- FINAL QUESTION -->
+    <section class="card" id="step-4">
+      <h2 class="title">Final Question 💌</h2>
+      <p class="question big">Will you be my Valentine?</p>
+
+      <div class="actions final-actions">
+        <button class="btn primary" id="yesBtn">YESSS 💖</button>
+        <button class="btn danger" id="noBtn">No 😐</button>
+      </div>
+
+      <p class="tiny">(the “no” button is decorative 😇)</p>
+    </section>
+
+    <!-- SUCCESS PAGE -->
+    <section class="card" id="step-5">
+      <h2 class="title">YAYYYYY 💘</h2>
+      <p class="note">
+        Congratulations. You just made me the happiest person ever.
+        <br><br>
+        Now come here so I can give you approximately 937 kisses 😚
+      </p>
+
+      <div class="actions">
+        <button class="btn primary" id="confettiBtn">One more surprise ✨</button>
+        <a class="btn ghost" href="#" id="restartLink">Restart ↺</a>
+      </div>
+
+      <div class="love-letter" id="loveLetter" hidden>
+        <p>
+          I love you in the little moments, the loud laughs,
+          the fun and the quiet. I love you in every way possible.
+          You’re my favorite everything 💗
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
